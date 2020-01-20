@@ -13,27 +13,14 @@ import com.daisyna.useitagain.Activity.Dashboard;
 import com.daisyna.useitagain.R;
 
 public class MainActivity extends AppCompatActivity {
-    EditText edtName, edtPassword;
-    Button btnLogin;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        edtName=findViewById(R.id.edtUsername);
-        edtPassword=findViewById(R.id.edtPassword);
-        btnLogin=findViewById(R.id.btnLogin);
-
-
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-
-            }
-        });
+        
 
 
     }
